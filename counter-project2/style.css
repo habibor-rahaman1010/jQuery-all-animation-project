@@ -1,0 +1,26 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    text-align: center;
+    margin-top: 50px
+}
+#content .col-md-3{
+    padding: 0px;
+}
+#content .counter-box{
+    padding: 50px 0px;
+}
+#content .counter-box h1{
+    font-size: 2em;
+    color: rgb(31, 57, 65);
+}
+#content .counter-box span{
+    font-size: 2em;
+    color: rgb(158, 0, 21);
+    font-weight: 500;
+}
+.text{
+    height: 100vh;
+}

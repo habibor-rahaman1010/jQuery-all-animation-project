@@ -1,0 +1,28 @@
+.progressbar{width: 100%; 
+    margin-top: 5px; 
+    margin-bottom: 25px; 
+    position: relative; 
+    background-color: #f4f4f4;
+}
+.proggress{height: 8px; 
+    width: 10px;
+    background-color: #ff0;
+}
+.percentCount{
+    float: right; 
+    margin-top: -42px; 
+    clear: both; 
+    font-weight: 700; 
+    font-size: 13px; 
+    color: #777777;
+}
+.container{
+    margin-top: 50px;
+}
+.progress-box{
+    margin-top: 40px;
+}
+
+body{
+    background: rgb(236, 236, 236);
+}

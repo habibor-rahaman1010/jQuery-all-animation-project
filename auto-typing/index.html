@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>typeing-js</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Hello Everyone What's Up! <br> <span class="element">  </span></h1>
+    </div>
+
+    <script src="javaScript/typed.js"></script>
+
+    <script>
+        var typed = new Typed('.element', {
+        strings: ['',
+         'I am a Habibor Rahaman.',
+         'I am a full stack web developer.',
+         "Let's go we do codeing.",
+         "Let's go we do web development."
+        ],
+        startDelay: 60,
+        smartBackspace: true, 
+        typeSpeed: 50,
+        backSpeed: 30,
+        loop: true,
+        fadeOut: false,
+        fadeOutClass: 'typed-fade-out',
+        fadeOutDelay: 500,
+        showCursor: true,
+        cursorChar: '|',
+        autoInsertCss: true,
+        bindInputFocusEvents: true,
+        
+    });
+    </script>
+</body>
+</html>

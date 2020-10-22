@@ -1,0 +1,10 @@
+body{
+    margin: 0 auto;
+    padding: 0 auto;
+    height: 100vh;
+    color: red;
+}
+
+#particles-js{
+    background-color: black;
+}

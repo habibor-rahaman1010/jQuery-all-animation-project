@@ -1,0 +1,9 @@
+*{
+  margin: 0px auto;
+  padding: 0px;
+}
+#particles-js{
+  height: 100%;
+  width: 100%;
+  background-color: #f7f6ff;
+}

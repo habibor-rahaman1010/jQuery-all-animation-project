@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.arria {
+    margin: 100px auto;
+    width: 1000px;
+}
+
+.box {
+    overflow: hidden;
+}
+
+.single-box {
+    background: lightblue;
+    color: rgb(240, 36, 36);
+    text-align: center;
+    padding: 50px 50px;
+    float: left;
+    font-size: 22px;
+}
+h4{
+    margin-top: 15px;
+}
+.counter{
+    font-weight: 500;
+}
+.h{
+    color: green;
+    height: 100vh;
+}

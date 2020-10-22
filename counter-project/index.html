@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Number Counter </title>
+</head>
+<body>
+    <div class="arria">
+        <div class="box">
+            <div class="single-box">
+                <span class="counter">6792</span>
+                <h4>Saticsfaction</h4>
+            </div>
+
+            <div class="single-box">
+                <span class="counter">112545</span> 
+                <h4>Saticsfaction</h4>
+            </div>
+
+            <div class="single-box">
+                <span class="counter">7469</span> 
+                <h4>Saticsfaction</h4>
+            </div>
+
+            <div class="single-box">
+                <span class="counter">8875</span> 
+                <h4>Saticsfaction</h4>
+            </div>
+        </div>
+    </div>
+    <script src="javaScript/jquery.min.js"></script>
+    <script src="javaScript/jquery.waypoint.min.js"></script>
+    <script src="javaScript/counterup.min.js"></script>
+    <script>
+        $('.counter').counterUp({
+        delay: 20,
+        time: 2000
+    });
+    </script>
+</body>
+</html>

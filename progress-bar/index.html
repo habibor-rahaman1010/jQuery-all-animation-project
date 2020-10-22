@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="progress.css">
+    <title>Progress Bar</title>
+</head>
+<body>
+    <div class="container">
+        <h1>This is my web development skill's!</h1>
+     
+            <div class="progress-box">
+                    <div class="progress-headding"><h4 style="color: rgb(6, 102, 57)">HTML</h4></div>
+                    <div class="progress_bar_Html"></div>
+            </div>
+
+            <div class="progress-box">
+                    <div class="progress-headding"><h4 style="color: rgb(0, 108, 112)">CSS</h4></div>
+                    <div class="progress_bar_Css"></div>
+            </div>
+
+            <div class="progress-box">
+                    <div class="progress-headding"><h4 style="color: rgb(134, 132, 0)">JavaScript</h4></div>
+                    <div class="progress_bar_JavaScript"></div>
+            </div>
+
+            <div class="progress-box">
+                    <div class="progress-headding"><h4 style="color: rgb(2, 49, 192)">Python</h4></div>
+                    <div class="progress_bar_Python"></div>
+            </div>
+
+            <div class="progress-box">
+                    <div class="progress-headding"><h4 style="color: rgb(231, 0, 39)">Jquery</h4></div>
+                    <div class="progress_bar_Jequery"></div>
+            </div>
+
+            
+    </div>
+
+
+    <script src="javaScript/jquery.min.js"></script>
+    <script src="javaScript/jquery.migrate.min.js"></script>
+    <script src="javaScript/jquery.waypoint.min.js"></script>
+    <script src="javaScript/progress.js"></script>
+
+<script>
+        $('.progress_bar_Html').rProgressbar({
+        percentage: 85,
+        ShowProgressCount: true,
+        duration: 1000,
+        fillBackgroundColor: 'rgb(3, 145, 45)',
+        backgroundColor: 'rgb(202, 202, 202)',
+        borderRadius: '10px',
+        height: '15px',
+        width: '100%'
+    });
+
+    $('.progress_bar_Css').rProgressbar({
+        percentage: 75,
+        ShowProgressCount: true,
+        duration: 1000,
+        fillBackgroundColor: 'rgb(2, 161, 121)',
+        backgroundColor: 'rgb(202, 202, 202)',
+        borderRadius: '10px',
+        height: '15px',
+        width: '100%'
+    });
+
+    $('.progress_bar_JavaScript').rProgressbar({
+        percentage: 85,
+        ShowProgressCount: true,
+        duration: 1000,
+        fillBackgroundColor: 'rgb(237, 190, 0)',
+        backgroundColor: 'rgb(202, 202, 202)',
+        borderRadius: '10px',
+        height: '15px',
+        width: '100%'
+    });
+
+    $('.progress_bar_Python').rProgressbar({
+        percentage: 65,
+        ShowProgressCount: true,
+        duration: 1000,
+        fillBackgroundColor: 'rgb(2, 102, 201)',
+        backgroundColor: 'rgb(202, 202, 202)',
+        borderRadius: '10px',
+        height: '15px',
+        width: '100%'
+    });
+
+    $('.progress_bar_Jequery').rProgressbar({
+        percentage: 55,
+        ShowProgressCount: true,
+        duration: 1000,
+        fillBackgroundColor: 'rgb(255, 33, 96)',
+        backgroundColor: 'rgb(202, 202, 202)',
+        borderRadius: '10px',
+        height: '15px',
+        width: '100%'
+    });
+</script>
+</body>
+</html>
